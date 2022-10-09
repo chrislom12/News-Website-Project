@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@700;900&family=Open+Sans:ital,wght@0,300;0,800;1,700;1,800&family=Roboto&display=swap');
+body {
+        
+        background-color: #0083b7;
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        margin: 0;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 800;
+        
+   }
+
+
+
+
+img.logo {
+    width: 30%;
+    height: auto;
+  }
+
+
+
+.containerNav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+  background: #ffffff;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 30px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 10px;
+  padding: 40px;
+  list-style: none;
+}
+
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  position: relative;
+}
+
+/* nav a {
+  color: #212121;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+nav a:hover {
+  
+  color: #0083b7 ;
+} */
+
+.navLinks{
+  color: #212121 !important;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-size: 1vw !important;
+}
+
+.navLinks:hover{
+  color: #0083b7 !important ;
+}
+
+p{
+    color: #212121 ;
+    text-align:center;
+    font-size: 1vw;
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+
+img.logoPage{
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    
+    filter: drop-shadow(5px 5px 5px #222);
+    
+    
+}
+ 
+.midLaunch {
+  margin: auto;
+  width: 100%;
+  padding: 150px 0;
+}
+
+
+  input {
+    all: unset;
+    font: 16px system-ui;
+    color: #212121;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+    
+    
+  }
+
+
+  .headingPage{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 900;
+    font-size: 3.5vw;
+    text-align: center;
+    /* border: 2px solid #FFFF00; */
+  }
+
+  .mainBlock{
+    display:flex;
+/*     border: 2px solid #c1bfd4;
+ */    margin-bottom: 25px;    
+       
+  }
+
+  .statsBlock{
+    flex-direction: column;
+/*     border: 2px solid #1b1368;
+ */    border-radius: 15px;
+    background-color: #ffffff;
+    width: 31%;
+    margin: auto;
+    display: flex;
+    box-shadow: 10px 10px 47px -8px rgba(0,0,0,0.75);
+    
+  }
+
+  .statsBlockLarge{
+    flex-direction: column;
+/*     border: 2px solid #1b1368;
+ */    border-radius: 15px;
+    background-color: #ffffff;
+    width: auto;
+    margin: auto;
+    display: flex;
+    box-shadow: 10px 10px 47px -8px rgba(0,0,0,0.75);
+    
+
+  }
+
+  .statsItem{
+    
+    border: 2px solid #ffffff;
+    width: 48%;
+    height: 300px;    
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: 1s;
+    position: relative;
+    
+    
+        
+  }
+
+  .statsHead{
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    margin-bottom: -10px;
+    margin-left: 60px;
+    font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .statsPar{
+    color: #fff;
+    text-align: left;
+    margin: 20px;
+    margin-bottom: -5px;
+    font-size: 0.8vw;
+    text-shadow: 4px 4px 9px rgba(0,0,0,1), 4px 4px 9px rgba(0,0,0,1), 4px 4px 9px rgba(0,0,0,1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500 !important;
+    text-transform:inherit;
+    line-height: 18pt;
+    
+  }
+
+  .statsTitle{
+    color: #0083b7;
+    margin: 20px;
+    margin-bottom: -10px;
+    margin-left: 60px;
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+  }
+
+
+
+hr{
+    display: block;
+    width:90%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #0083b7;
+    background-color: #0083b7;
+    margin-top: 30px;
+
+}
+
+.covidGraphCentre{
+  width: 80%;
+  height: auto;
+  margin: auto;
+   
+  
+}
+.covidGraphMain{
+  width: auto;
+  height: 90%;
+  margin: auto;
+  margin: 50px;
+   
+  
+}
+
+.statsBody{
+    color: rgb(0, 0, 0);
+    text-align: left;
+    
+    margin-left: 70px;
+    margin-right: 50px;
+
+    Top: -30px;
+    font-size: 1.2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500 !important;
+    text-transform:inherit;
+    line-height: 0pt;
+}
+
+
+
+  
+
+
+  
+  
+  
+  
+

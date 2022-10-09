@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@700;900&family=Open+Sans:ital,wght@0,300;0,800;1,700;1,800&family=Roboto&display=swap');
+body {
+        
+        background-color: #0083b7;
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        margin: 0;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 800;
+        
+   }
+
+    .headingPage{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 900;
+    font-size: 3.3vw;
+    text-align: center;
+    /* border: 2px solid #FFFF00; */
+  }
+
+  .midLaunch {
+    margin: auto;
+    width: 100%;
+    padding: 150px 0;
+  }
+
+  img.logoPage{
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    
+    
+    
+}
+  
